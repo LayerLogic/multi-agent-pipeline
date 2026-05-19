@@ -1,0 +1,28 @@
+Metric,Pattern,N,Mean,Std,Variance,Min,Max,Median,Frequency
+Pass Rate,hierarchical,90,0.5444,0.5008,0.2508,0.0,1.0,1.0,54.4%
+Pass Rate,sequential,90,0.9222,0.2693,0.0725,0.0,1.0,1.0,92.2%
+Pass Rate,single_agent,90,0.8111,0.3936,0.1549,0.0,1.0,1.0,81.1%
+Line Coverage,hierarchical,90,0.5406,0.4975,0.2475,0.0,1.0,0.9565,54.1%
+Line Coverage,sequential,90,0.9157,0.268,0.0718,0.0,1.0,1.0,91.6%
+Line Coverage,single_agent,90,0.8065,0.3916,0.1533,0.0,1.0,1.0,80.6%
+Branch Coverage,hierarchical,90,0.5335,0.4916,0.2417,0.0,1.0,0.9,53.4%
+Branch Coverage,sequential,90,0.9058,0.2666,0.0711,0.0,1.0,1.0,90.6%
+Branch Coverage,single_agent,90,0.7968,0.3879,0.1505,0.0,1.0,1.0,79.7%
+Tests Generated,hierarchical,90,12.1333,8.562,73.3079,0.0,37.0,13.0,-
+Tests Generated,sequential,90,14.2222,5.3186,28.2871,0.0,30.0,13.0,-
+Tests Generated,single_agent,90,26.4333,11.8065,139.3944,0.0,72.0,24.0,-
+Tests Passed,hierarchical,90,11.3556,9.1139,83.0632,0.0,37.0,12.5,-
+Tests Passed,sequential,90,14.1556,5.3756,28.8969,0.0,30.0,13.0,-
+Tests Passed,single_agent,90,25.9333,11.8225,139.7708,0.0,71.0,23.0,-
+Cost (USD),hierarchical,90,0.3075,0.1237,0.0153,0.128,0.7309,0.2863,-
+Cost (USD),sequential,90,0.0886,0.0369,0.0014,0.0,0.1776,0.0789,-
+Cost (USD),single_agent,90,0.0826,0.0519,0.0027,0.0171,0.21,0.071,-
+Latency (s),hierarchical,90,154.4091,57.9054,3353.0406,64.532,299.736,142.3685,-
+Latency (s),sequential,90,45.3508,17.1918,295.5569,2.397,107.652,41.517,-
+Latency (s),single_agent,90,40.5081,24.562,603.2934,9.881,143.953,35.0545,-
+LLM Calls,hierarchical,90,9.5667,2.3419,5.4843,4.0,16.0,10.0,-
+LLM Calls,sequential,90,3.9333,1.1689,1.3663,0.0,6.0,4.0,-
+LLM Calls,single_agent,90,2.5111,1.1731,1.3763,1.0,4.0,2.0,-
+Retries,hierarchical,90,2.0667,1.1974,1.4337,0.0,3.0,3.0,-
+Retries,sequential,90,1.0333,0.9295,0.864,0.0,3.0,1.0,-
+Retries,single_agent,90,1.5111,1.1731,1.3763,0.0,3.0,1.0,-
